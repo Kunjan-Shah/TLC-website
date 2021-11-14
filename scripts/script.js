@@ -13,4 +13,11 @@ $(document).ready(function(){
 		$('.menu-name').toggleClass('bump');
 		$('.bg-cover').toggleClass('reveal');
 	})
+	$(window).scroll(function(){
+		$('#menu').slideUp(300);
+		$('.top').removeClass('rotate');
+		$('.middle').removeClass('rotate-back');
+		$('.menu-name').removeClass('bump');
+		$('.bg-cover').removeClass('reveal');
+	})
 });
