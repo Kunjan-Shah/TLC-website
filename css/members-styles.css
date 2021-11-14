@@ -209,75 +209,48 @@ body{
 /* style.css END */
 
 
-.wrapper{
+.member-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
-    #heading {
-        position: relative;
-        top:10vw;
-        left:auto;
+#member-heading {
+    margin-top: 10vw;
+    font-family: 'Farro', sans-serif;
+    font-style: normal;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 0.095em;
+    text-decoration-line: underline;
+    font-variant: small-caps;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #211D70;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-        font-family: 'Farro', sans-serif;
-        font-style: normal;
-        font-size: 72px;
+.member-container-box{
+    margin-top: 5vw;
+    width: 80%;
+}
 
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.095em;
-        text-decoration-line: underline;
-        font-variant: small-caps;
-        font-feature-settings: 'pnum' on, 'lnum' on;
+.member-box{
+    height:300px;
+}
 
-        color: #211D70;
+.profile-pic{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+.member-card {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
 
-    .container-box{
-        position:relative;
-        top:15vw;
-    }
-
-        .row{
-            /*display: flex;*/
-            flex-direction: row;
-            list-style-type: none;
-            justify-content: right;
-            align-items: center;
-            font-weight: bold;
-        }
-        /*.row:after {*/
-        /*    content: "";*/
-        /*    display: table;*/
-        /*    clear: both;*/
-        /*}*/
-
-            .box-items{
-                /*display: flex;*/
-                padding:5px;
-                /*float: left;*/
-                /*width: 33.33%;*/
-                align-items: center;
-                text-align: center;
-                justify-content: center;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
-            }
-
-                .items-left{
-
-                }
-                .items-middle{
-
-                }
-                .items-right{
-
-                }
-
-            .profile-pic{
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
+.next-row-top-margin {
+    margin-top: 75px !important;
+}
