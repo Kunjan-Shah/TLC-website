@@ -271,7 +271,8 @@ body{
 }
 
     .member-name{
-        font-size: 28px;
+        font-family: 'Farro', sans-serif;
+        font-size: 1.5vw;
         font-weight: bold;
     }
 
