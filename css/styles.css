@@ -207,7 +207,7 @@ body{
 	top: 64px;
 	color: #2b2776;
 }
-
+/*landing page*/
 .wrapper {
     height: 100vh;
 	/* background-image: url('./assets/cover-image.jpeg'); */
@@ -332,7 +332,7 @@ body{
 	width: 50%;
     text-align: right;
 }
-
+/*quote*/
 .quote-container {
 	font-family: Italianno;
     font-style: normal;
@@ -355,7 +355,7 @@ body{
 #by-line {
 	text-align: right;
 }
-
+/*about section*/
 .about {
 	margin-bottom: 70px;
     margin-left: auto;
@@ -447,12 +447,13 @@ body{
 #show-about-list {
 	padding: 0 !important;
 }
-
+/*recent events section*/
 .recent-events-container {
 	margin-bottom: 70px;
     margin-left: auto;
     margin-right: auto;
     font-family: Farro;
+	width: 100%;
 }
 
 .recent-events-container .title {
@@ -486,34 +487,99 @@ body{
 
 .event-card > img {
 	border-radius: 10px 10px 0 0;
+	height: 210px;
 }
 
 .event-card-title {
 	font-size: 18px;
     font-weight: bold;
     text-align: center;
+	height: 110px;
 }
 
 .event-card-text {
 	font-size: 13px;
 	text-align: center;
+	height: 40px;
+}
+
+.event-carousel-btn:visited {
+	background-color: #ddd;
+	border-color: #ddd;
 }
 
 .event-carousel-btn {
-	background-color: #211D70;
-	border-color: #211D70;
+	background-color: #ddd;
+	border-color: #ddd;
+	box-shadow: none !important;
 }
 
 .event-carousel-btn:hover {
+	background-color: #bbb;
+	border-color: #bbb;
+}
+
+.event-carousel-btn:active {
+	background-color: #ddd;
+	border-color: #ddd;
+}
+
+.event-carousel-btn > i {
+	color: #211D70;
+}
+
+.event-about-btn-div {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.event-about-btn:visited {
 	background-color: #211D70;
 	border-color: #211D70;
 }
 
-.event-carousel-btn:active {
+.event-about-btn {
+	background-color: #211D70;
+	border-color: #211D70;
+	box-shadow: none !important;
+}
+
+.event-about-btn:hover {
+	background-color: #131142;
+	border-color: #131142;
+}
+
+.event-about-btn:active {
 	background-color: #211D70;
 	border-color: #211D70;
 }
-.event-carousel-btn:visited {
-	background-color: #211D70;
-	border-color: #211D70;
+
+.contact-us-container {
+	margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Farro;
+	width: 100%;
+	text-align: center;
+}
+
+.contact-us-container .title {
+	font-style: normal;
+    font-weight: 550;
+    font-size: 56px;
+    text-align: center;
+    color: #211D70;
+	margin-bottom: 50px;
+	text-decoration-line: underline;
+}
+
+.contact-us-container .name {
+	font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-us-container .contact-info {
+	font-size: 18px;
+    line-height: 32px;
 }
