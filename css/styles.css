@@ -1,4 +1,3 @@
-/*Anish*/
 * {
     box-sizing: border-box;
 }
@@ -505,8 +504,8 @@ body{
 }
 
 .event-carousel-btn:visited {
-	background-color: #ddd;
-	border-color: #ddd;
+	background-color: #ddd !important;
+	border-color: #ddd !important;
 }
 
 .event-carousel-btn {
