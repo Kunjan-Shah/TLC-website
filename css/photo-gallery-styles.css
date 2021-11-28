@@ -253,177 +253,167 @@ body{
 .overlap-row {
     margin-top: -6% !important;
 }
-
+/*Image 1*/
 .pg-img-1 {
     background-image:
-    url('../assets/ITW2017.jpg');
+    url('../assets/ITW2017.png');
     background-size: cover;
 }
 
 .pg-img-1:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('../assets/ITW2017.jpg');
+    url('../assets/ITW2017.png');
 }
 .pg-img-1:hover::after {
 	content: 'ITW 2017';
 }
-
+/*Image 2*/
 .pg-img-2 {
     background-image:
-    url('https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698');
+    url('../assets/Workshop_with_school_teachers.png');
     background-size: cover;
 }
 
 .pg-img-2:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698');
+    url('../assets/Workshop_with_school_teachers.png');
 }
 .pg-img-2:hover::after {
 	content: 'Workshop with School Teachers';
 }
-
+/*Image 3*/
 .pg-img-3 {
     background-image:
-    url('https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a');
+    url('../assets/Workshop for Research Scholars.png');
     background-size: cover;
 }
 
 .pg-img-3:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a');
+    url('../assets/Workshop for Research Scholars.png');
 }
 .pg-img-3:hover::after {
 	content: 'Workshop for Research Scholars';
 }
-
+/*Image 4*/
 .pg-img-4 {
     background-image:
-    url('https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4');
+    url('../assets/Workshop by KP Mohanan.png');
     background-size: cover;
 }
 
 .pg-img-4:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4');
+    url('../assets/Workshop by KP Mohanan.png');
 }
 .pg-img-4:hover::after {
 	content: 'Workshop by KP Mohanan';
 }
-
+/*Image 5*/
 .pg-img-5 {
     background-image:
-    url('https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840');
+    url('../assets/National Convention.png');
     background-size: cover;
 }
 
 .pg-img-5:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840');
+    url('../assets/National Convention.png');
 }
 .pg-img-5:hover::after {
 	content: 'National Convention';
 }
-
+/*Image 6*/
 .pg-img-6 {
     background-image:
-    url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d');
+    url('../assets/SSR Memorial Teaching Award.png');
     background-size: cover;
 }
 
 .pg-img-6:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d');
+    url('../assets/SSR Memorial Teaching Award.png');
 }
 .pg-img-6:hover::after {
 	content: 'SSR Memorial Teaching Award';
 }
-
+/*Image 7*/
 .pg-img-7 {
     background-image:
-    url('https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698');
+    url('../assets/National Workshop on Outcome Based Learning.png');
     background-size: cover;
 }
 
 .pg-img-7:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698');
+    url('../assets/National Workshop on Outcome Based Learning.png');
 }
 .pg-img-7:hover::after {
 	content: 'National Workshop on Outcome Based Learning';
 }
-
+/*Image 8*/
 .pg-img-8 {
     background-image:
-    url('https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a');
+    url('../assets/Open Forum.png');
     background-size: cover;
 }
 
 .pg-img-8:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a');
+    url('../assets/Open Forum.png');
 }
 .pg-img-8:hover::after {
 	content: 'Open Forum';
 }
-
+/*Image 9*/
 .pg-img-9 {
     background-image:
-    url('https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4');
+    url('../assets/Workshop on LMS.png');
     background-size: cover;
 }
 
 .pg-img-9:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4');
+    url('../assets/Workshop on LMS.png');
 }
 .pg-img-9:hover::after {
 	content: 'Workshop on LMS';
 }
-
+/*Image 10*/
 .pg-img-10 {
     background-image:
-    url('https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840');
+    url('../assets/Together at BITS.png');
     background-size: cover;
 }
 
 .pg-img-10:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    /* url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d'); */
-    url('https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840');
+    url('../assets/Together at BITS.png');
 }
 .pg-img-10:hover::after {
 	content: 'Together at BITS';
 }
-
+/*Image 11*/
 .pg-img-11 {
     background-image:
-    url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d');
+    url('../assets/TLC 2015.png');
     background-size: cover;
 }
 
 .pg-img-11:hover {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 1), transparent),
-    url('https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d');
+    url('../assets/TLC 2015.png');
 }
 .pg-img-11:hover::after {
 	content: 'TLC 2015';

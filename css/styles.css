@@ -504,8 +504,8 @@ body{
 }
 
 .event-carousel-btn:visited {
-	background-color: #ddd !important;
-	border-color: #ddd !important;
+	background-color: #ddd;
+	border-color: #ddd;
 }
 
 .event-carousel-btn {
