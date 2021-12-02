@@ -213,17 +213,17 @@ body{
 /* style.css END */
 
 
-.member-wrapper{
+.resources-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin-bottom: 100px;
+    font-family: 'Farro', sans-serif;
 }
 
-#member-heading {
+#resources-heading {
     margin-top: 10vw;
-    font-family: 'Farro', sans-serif;
     font-style: normal;
     font-size: 72px;
     text-align: center;
@@ -235,156 +235,105 @@ body{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.member-heading {
-    font-family: 'Farro', sans-serif;
-    font-style: normal;
-    font-size: 50px;
-    text-align: center;
-    letter-spacing: 0.095em;
+.resources-container {
+    height: 100%;
+    margin: 0 2em;
+    padding: 0 5em;
+    margin-bottom: 30px;
+}
+
+.resources-subheading {
+    font-size: 40px;
     text-decoration-line: underline;
-    padding-bottom:3vw;
-    padding-top:5vw;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #211D70;
+    margin-top: 45px;
 }
 
-.member-container-box{
-    width: 80%;
+/*CSS for learn more button*/
+
+.resources-btn-div {
+    margin: 15px 0;
 }
 
-.member-box{
-    height:300px;
+.learn-more {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
 }
-
-.profile-pic{
-    border-radius: 100%;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    height: 180px;
-    width: 180px;
-    position: absolute;
-    left: 17.6%;
-    top: 12.5%;
+.learn-more {
+  width: 12rem;
+  height: auto;
+  width: 100%;
 }
-
-.member-card {
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* box-shadow: 7px 7px 7px rgb(0 0 0 / 25%); */
-    /* to center a div */
-    /* display: grid; */
-    display: flex;
-    flex-direction: column;
-    place-items: center;
+.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+    /* background: #211D70; */
+    /* background-color: #bbb; */
+  border-radius: 1.625rem;
 }
-
-    .member-name{
-        font-family: 'Farro', sans-serif;
-        font-size: 1.5vw;
-        font-weight: bold;
-    }
-
-.next-row-top-margin {
-    margin-top: 75px !important;
+.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
 }
-
-.color-div {
-    width: 100%;
-    position: relative;
-    height: 90%;  
-    clip-path: polygon(0 0%, 100% 0, 100% 17%, 0 100%);
+.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
 }
-
-.blue {
-    background-color: #C8E7F6;
+.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
 }
-
-.yellow {
-    background-color: #FACA2C;
+.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 25px;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: left;
+  text-transform: uppercase;
 }
-
-.red {
-    background-color: #ED1C24;
+.learn-more:hover .circle {
+  width: 100%;
 }
-
-.slant-section {
-    width: 100%;
-    position: relative;
-    height: 80%;
+.learn-more:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
 }
-
-/*flip card*/
-.flip-card {
-    background-color: transparent;
-    /* width: 300px;
-    height: 300px;
-    perspective: 1000px; */
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-back {
-    transform: rotateY(180deg);
-    vertical-align: middle;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-  }
-  .flip-card-back p {
-      margin-top: 20%;
-  }
-
-.member-designation {
-    font-family: 'Farro', sans-serif;
-    font-size: 22px;
-}
-
-.member-dept {
-    font-family: 'Farro', sans-serif;
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-.member-profile-btn-div {
-	text-align: center;
-	margin-top: 20px;
-}
-
-.member-profile-btn:visited {
-	background-color: #211D70;
-	border-color: #211D70;
-}
-
-.member-profile-btn {
-	background-color: #211D70 !important;
-	border-color: #211D70 !important;
-	box-shadow: none !important;
-}
-
-.member-profile-btn:hover {
-	background-color: #131142 !important;
-	border-color: #131142 !important;
-}
-
-.member-profile-btn:active {
-	background-color: #211D70;
-	border-color: #211D70;
+.learn-more:hover .button-text {
+  color: #fff;
 }
