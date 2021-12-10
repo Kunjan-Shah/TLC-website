@@ -211,6 +211,29 @@ body{
 
 /* HEADINGS */
 
+
+.activities-wrapper {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+    font-family: 'Farro', sans-serif;
+}
+
+#activities-heading {
+    margin-top: 10vw;
+    font-style: normal;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 0.095em;
+    text-decoration-line: underline;
+    font-variant: small-caps;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #211D70;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .main-head{
 font-family: Farro;
 font-style: normal;
@@ -227,14 +250,13 @@ margin-bottom: 7%;
 font-family: Farro;
 font-style: normal;
 font-weight: 500;
-font-size: 36px;
+font-size: 32px;
 text-decoration: underline;
 color: #211D70;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .head-2{
-text-align: center;
+/* text-align: center;
 font-family: Farro;
 font-style: normal;
 font-weight: 500;
@@ -245,7 +267,14 @@ color: #211D70;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 margin-top: 5%;
 text-decoration: underline;
-margin-bottom: 4%;
+margin-bottom: 4%; */
+	font-style: normal;
+	font-weight: 550;
+	font-size: 56px;
+	text-align: center;
+	color: #211D70;
+	margin-bottom: 50px;
+	text-decoration-line: underline;
 }
 
 .current-events, .past-events{
@@ -256,31 +285,32 @@ margin-bottom: 4%;
   font-family: Farro;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 60px;
+  font-size: 18px;
+  line-height: 40px;
 }
 
 .accordion-button{
   font-family: Farro;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 24px;
   color: #211D70;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-margin-bottom:1%;
+  margin-bottom:1%;
 }
 
-.conatiner{
-  margin: 0%;
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
 }
 
 .text-list{
   font-family: Farro;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 60px;
+  font-size: 18px;
+  line-height: 40px;
 }
 
 /* TIMELINE CONTAINER */
@@ -334,4 +364,21 @@ border-color: white;
 
 .projects{
   padding-bottom: 10%;
+}
+
+.container a {
+	color: black;
+	text-decoration: none !important;
+}
+
+.container a:hover {
+	color: #211D70;
+}
+
+.project-text p{
+	font-family: Farro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
 }
