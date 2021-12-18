@@ -305,6 +305,14 @@ margin-bottom: 4%; */
     outline: 0;
 }
 
+.accordion-body-text {
+	font-family: Farro;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 40px;
+}
+
 .text-list{
   font-family: Farro;
   font-style: normal;
@@ -319,6 +327,10 @@ margin-bottom: 4%; */
   background: var(--primary-color);
   margin: 20px auto;
   padding: 20px;
+}
+
+.timeline-heading {
+	font-weight: bold;
 }
 
 /* Outer Layer with the timeline border */
